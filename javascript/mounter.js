@@ -1,7 +1,20 @@
-function loadNav(id){
-    fetch('../elements/nav.html')
-    .then(response=> response.text())
-    .then(text=> document.getElementById(id).innerHTML = text);
+import carregaveis from '../elements/carregaveis.json' assert { type: 'json' };
+
+function loadNav(object){
+    try {
+        fetch(object.url)
+        .then(response=> response.text())
+        .then(text=> document.getElementById(object.id).innerHTML = text);
+    } catch (error) {
+        console.log(teste);
+    }
+    
 }
 
-loadNav('navigation');
+Object.entries(carregaveis).forEach(element=>{
+    console.log(element[1])
+    loadNav(element[1]);
+})
+
+
+//loadNav('navigation');

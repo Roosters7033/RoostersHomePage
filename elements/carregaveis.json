@@ -1,0 +1,10 @@
+{
+    "nav":{
+        "url":"../elements/nav.html",
+        "id":"navigation"
+    },
+    "footer":{
+        "url":"../elements/footer.html",
+        "id":"footer"
+    }
+}
