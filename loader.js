@@ -4,6 +4,7 @@ let search  =  document.getElementById("carregar");
 let area = document.getElementById("targetArea");
 
 search.addEventListener("click",()=>{
+    area.innerHTML = '';
     Object.entries(data).forEach(element=>{
         area.innerHTML +=
          `<div class='indivContent'>

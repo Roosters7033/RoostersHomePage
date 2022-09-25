@@ -4,11 +4,20 @@ body{
 h1 {
     color:#5c629b
   }
-#targetArea{
-    border: 1px solid #3c4488;
+.indivContent h2{
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
-#carregar{
+#targetArea{
+    /* border: 1px solid #3c4488; */
+    padding: 5px;
+    
+}
+.clicavel{
     background-color: #292e5f;
+}
+.clicavel:hover{
+    background-color: #394083;
 }
 .indivContent .header{
     font-weight: bolder;
@@ -17,9 +26,17 @@ h1 {
 
 .indivContent{
     background-color: #292e5f;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.indivContent:hover{
+    background-color: #394083;
 }
 .indivContent .tags{
-    color: red;
-    word-spacing: 5px;
+    color: rgb(46, 17, 17);
+    font-weight: bold;
+    word-spacing: 3px;
 }
 
