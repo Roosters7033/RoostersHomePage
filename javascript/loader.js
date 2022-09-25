@@ -1,4 +1,4 @@
-import data from './po.json' assert { type: 'json' };
+import data from '../po.json' assert { type: 'json' };
 
 let search  =  document.getElementById("carregar");
 let area = document.getElementById("targetArea");
