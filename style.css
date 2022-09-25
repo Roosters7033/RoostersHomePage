@@ -1,0 +1,25 @@
+body{
+    background-color: #171a35;
+}
+h1 {
+    color:#5c629b
+  }
+#targetArea{
+    border: 1px solid #3c4488;
+}
+#carregar{
+    background-color: #292e5f;
+}
+.indivContent .header{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.indivContent{
+    background-color: #292e5f;
+}
+.indivContent .tags{
+    color: red;
+    word-spacing: 5px;
+}
+
