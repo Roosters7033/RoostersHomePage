@@ -6,5 +6,9 @@
     "footer":{
         "url":"../elements/footer.html",
         "id":"footer"
+    },
+    "lateral":{
+        "url":"../elements/navLateral.html",
+        "id":"navLateral"
     }
 }
