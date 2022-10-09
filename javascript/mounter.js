@@ -6,7 +6,7 @@ function loadNav(object){
         .then(response=> response.text())
         .then(text=> document.getElementById(object.id).innerHTML = text);
     } catch (error) {
-        console.log(teste);
+        console.log('teste');
     }
     
 }
