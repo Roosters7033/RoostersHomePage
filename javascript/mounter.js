@@ -1,4 +1,4 @@
-import carregaveis from '../elements/carregaveis.json' assert { type: 'json' };
+import carregaveis from './../elements/carregaveis.json' assert { type: 'json' };
 
 function loadNav(object){
     try {
