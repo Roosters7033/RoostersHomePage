@@ -1,0 +1,27 @@
+{
+    "Post-01":{
+        "title":"Primeiro post",
+        "content":" texto text text text text text text text text text text text text text text text text text text ",
+        "tags":["principal","aviso"]
+    },
+    "Post-02":{
+        "title":"Eu aceito jesus",
+        "content":" texto2 text text text text text text text text text text text text text text text text text text ",
+        "tags":["principal2","aviso2","netflix","jeam-gay"]
+    },
+    "Post-03":{
+        "title":"Eu aceito netflix",
+        "content":"  netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk ",
+        "tags":["netflix","aviso2"]
+    },
+    "Post-04":{
+        "title":"Eu aceito netflix",
+        "content":"  netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk ",
+        "tags":["netflix","aviso2"]
+    },
+    "Post-05":{
+        "title":"Meu nome é carlos",
+        "content":"  netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk netflixkk ",
+        "tags":["netflix","aviso2"]
+    }
+}
