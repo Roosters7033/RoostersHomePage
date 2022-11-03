@@ -62,6 +62,10 @@ header{
     color: white;
     font-size: 24px;
 }
+
+.nav-menu-item a{
+    color: white;
+}
 .nav-menu-item:hover{
     text-decoration: underline;
     cursor: pointer;

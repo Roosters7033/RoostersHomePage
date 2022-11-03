@@ -1,0 +1,99 @@
+
+
+header {
+	background-color: #CCCCCC;
+	padding: 20px 0px 40px 0px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+li {
+	display: inline;
+	margin-left: 10px;
+	color: white;
+}
+
+.links {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.links:hover {
+	display: inline-block;
+	color: #FF8C00;
+	text-decoration: underline;
+}
+
+ul a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+ul a:hover {
+	color: white;
+	text-decoration: underline;
+}
+ul {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.formulario {
+    display: inline-block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+}
+
+.formularios {
+    border: none;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
